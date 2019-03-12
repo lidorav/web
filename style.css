@@ -10,8 +10,9 @@ p {
   font-family: "Times New Roman", Times, "sans-serif";
 }
 
-p1 {
-text-size-adjust: 10; 
+
+p.oblique {
+  font-style: oblique;
 }
 
 
@@ -54,6 +55,8 @@ li a:hover {
 
 h2 {
   background-color: rgb(72, 167, 72);
+  text-shadow: 3px 2px rgb(110, 105, 105);
+ 
 }
 
 .grid-container {
