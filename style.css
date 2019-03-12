@@ -6,6 +6,11 @@
 	background: black;
 } */
 
+html {
+  background: 10.jpg no-repeat center fixed; 
+  background-size: cover;
+}
+
 p {
   font-family: "Times New Roman", Times, "sans-serif";
 }
@@ -13,6 +18,7 @@ p {
 
 p.oblique {
   font-style: oblique;
+  text-decoration-color: azure;
 }
 
 
@@ -54,8 +60,8 @@ li a:hover {
 
 
 h2 {
-  background-color: rgb(72, 167, 72);
-  text-shadow: 3px 2px rgb(110, 105, 105);
+  background-color: rgb(4, 51, 73);
+  text-shadow: 3px 2px rgb(240, 26, 158);
  
 }
 
@@ -63,7 +69,7 @@ h2 {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
-  background-color: rgb(72, 167, 72);
+  background-color: rgb(4, 51, 73);
   padding: 10px;
 }
 
