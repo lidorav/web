@@ -10,6 +10,10 @@ p {
   font-family: "Times New Roman", Times, "sans-serif";
 }
 
+p1 {
+text-size-adjust: 10; 
+}
+
 
 .section{
 	align-items: center;
@@ -49,28 +53,28 @@ li a:hover {
 
 
 h2 {
-  background-color: green;
+  background-color: rgb(72, 167, 72);
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
-  background-color: aqua;
+  background-color: rgb(72, 167, 72);
   padding: 10px;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: white;
   text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+  padding: 10px 0;
+  font-size: 20px;
 }
 
 
 div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(255, 255, 255);
   /* float: left; */
   width: 180px;
 
@@ -82,19 +86,15 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: auto;
+  /* height: auto; */
 }
 
 div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-.footer {
-  background-color: #f1f1f1;
   padding: 10px;
   text-align: center;
 }
+
+
 
 #poly {
   border-radius: 50%;
