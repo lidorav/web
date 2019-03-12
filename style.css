@@ -5,7 +5,10 @@
 	height: 55px;
 	background: black;
 } */
-
+html{
+background: url(547a9cc6b93e10261f1dd8a8af474e03.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
 p {
   font-family: "Times New Roman", Times, "sans-serif";
 }
