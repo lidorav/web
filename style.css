@@ -6,9 +6,9 @@
 	background: black;
 } */
 
-html {
-  background: "11.jpg" no-repeat center fixed; 
-  background-size: cover;
+body {
+  background-image: url("11.jpg");
+  background-attachment: fixed;
 }
 
 p {
@@ -19,7 +19,29 @@ p {
 p.oblique {
   font-style: oblique;
   text-decoration-color: azure;
+  color: aqua;
 }
+
+h1  {
+  font-style: oblique;
+  text-decoration-color: azure;
+  color: aqua;
+}
+
+
+h3  {
+  font-style: oblique;
+  text-decoration-color: azure;
+  color: aqua;
+}
+
+h4  {
+  font-style: oblique;
+  text-decoration-color: azure;
+  color: aqua;
+}
+
+
 
 
 .section{
@@ -105,11 +127,29 @@ div.desc {
 }
 
 
+table {
+  font-style: oblique;
+  text-decoration-color: azure;
+  color: aqua;
+  text-align: center;
+
+  
+}
+
+
+
 
 #poly {
   border-radius: 50%;
 }
 
+
+#mydiv {
+  padding: 15px;
+  border: 10px dotted #000000;
+  background-color: black;  
+  background-clip:content-box;
+}
 
 
 
