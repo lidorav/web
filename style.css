@@ -19,26 +19,26 @@ p {
 p.oblique {
   font-style: oblique;
   text-decoration-color: azure;
-  color: aqua;
+  color: rgb(255, 0, 149);
 }
 
 h1  {
   font-style: oblique;
   text-decoration-color: azure;
-  color: aqua;
+  color: rgb(4, 0, 255);
 }
 
 
 h3  {
   font-style: oblique;
   text-decoration-color: azure;
-  color: aqua;
+  color: rgb(199, 8, 142);
 }
 
 h4  {
   font-style: oblique;
   text-decoration-color: azure;
-  color: aqua;
+  color: rgb(245, 3, 152);
 }
 
 
@@ -130,7 +130,7 @@ div.desc {
 table {
   font-style: oblique;
   text-decoration-color: azure;
-  color: aqua;
+  color: rgb(255, 41, 41);
   text-align: center;
 
   
