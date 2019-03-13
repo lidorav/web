@@ -7,7 +7,7 @@
 } */
 
 html {
-  background: 10.jpg no-repeat center fixed; 
+  background: "11.jpg" no-repeat center fixed; 
   background-size: cover;
 }
 
@@ -28,9 +28,8 @@ p.oblique {
 }
 
 
-
-
 ul {
+  z-index: 999;
   list-style-type: none;
   position: fixed;
   width: 100%;
